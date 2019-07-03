@@ -32,13 +32,25 @@
 - 很容易在训练数据中生成复杂的树结构，造成过拟合。
 
 ### 随机森林 Random Forest
+![image](https://github.com/teamowu/Machine-Learning/blob/master/images/Random%20Forest.png)
 
-
+**优点：**
+- 随机森林不容易限于过拟合
+- 具有很好的抗噪声能力
+- 处理很高维度(feature多)的数据，并且不用做特征选择
+- 训练速度快
 
 ## 聚类
+物以类聚，人以群分
 - 一种无监督式机器学习(即**数据没有标注**)
 - 算法基于数据的内部结构寻找观察样本的自然族群(即集群)
-- 使用案例包括客户细分，新闻聚类，文章推荐等等
+- 使用案例包括客户细分，新闻聚类，文章推荐等等。
+
+**用于衡量相似性的两个指标**：
+- 欧式距离 Euclidean distance 
+- 曼哈顿距离 Manhattan distance
+- 余弦相似性 cosine
+- Jaccard系数
 
 ## 降维
 
